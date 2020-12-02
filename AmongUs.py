@@ -1,3 +1,5 @@
+# AmongUs.py
+
 import discord
 from discord.ext import commands
 from discord.utils import get
@@ -18,4 +20,4 @@ async def test(ctx, role: discord.Role, user: discord.Member):
     await user.add_roles(role)
     await ctx.send(f'{user} now has role {role}.')
 
-client.run('Nzc4ODI0MDA1MjEzMjI0OTcw.X7XmYA.uzMYA7sOUvFcABIbmraZpQBuooo')
+client.run('{BOT_TOKEN}')
